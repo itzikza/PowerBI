@@ -2,6 +2,8 @@
 
 This project transforms a raw dataset of 3,100+ IMDB movie records into a comprehensive Business Intelligence ecosystem. The goal was to identify profitability drivers and analyze genre performance to provide data-driven insights for content strategy.
 
+![Dashboard Preview](Images/Dashboard.png)
+
 # Data Engineering & ETL Process
 Before visualization, a rigorous ETL process was conducted to ensure data integrity:
 
