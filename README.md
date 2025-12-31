@@ -19,6 +19,8 @@ Applied data type formatting for currency and numerical analysis.
 
 Loading: Structured the data into a high-performance Star Schema model.
 
+![ETL Process Proof](ETL%20Proff.png)
+
 # Data Architecture & Modeling
 The project is built on a robust relational model to ensure scalability:
 
@@ -28,12 +30,16 @@ Dimension Tables: Dedicated dimensions for Dim_Directors, Dim_Genres, Dim_Dates,
 
 DAX Engineering: Developed custom measures for Profitability %, ROI, and dynamic currency formatting in Billions/Millions.
 
+![Data Model Schema](ERD.png)
+
 # Key Business Insights
 Profitability Benchmark: 66% of the analyzed movies reached profitability.
 
 Revenue Leaders: The 'Adventure' genre emerged as the highest average net revenue driver at $173M.
 
 Risk Analysis: Visualized the correlation between production budgets and net revenue to identify high-risk investment categories.
+
+![Table Structure](Tables.png)
 
 # Technical Stack
 Power BI: Data visualization and report hosting.
