@@ -17,8 +17,6 @@ Engineered new columns for "Decades" and "Profitability Status" to enable deeper
 
 Applied data type formatting for currency and numerical analysis.
 
-Loading: Structured the data into a high-performance Star Schema model.
-
 ![ETL Process Proof](ETL%20Proff.png)
 
 # Data Architecture & Modeling
@@ -29,6 +27,8 @@ The project is built on a robust relational model to ensure scalability:
 Dimension Tables: Dedicated dimensions for Dim_Directors, Dim_Genres, Dim_Dates, Dim_MPAA, and Dim_Distributors.
 
 DAX Engineering: Developed custom measures for Profitability %, ROI, and dynamic currency formatting in Billions/Millions.
+
+Loading: Structured the data into a high-performance Star Schema model.
 
 ![Data Model Schema](ERD.png)
 
